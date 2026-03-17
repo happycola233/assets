@@ -1,46 +1,50 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="551.111"
-  height="1000"
-  viewBox="0 0 551.111 1000"
-  role="img"
-  aria-label="Netflix symbol"
-  preserveAspectRatio="xMidYMid meet">
-  <defs>
-    <linearGradient
-      id="netflix-left-gradient"
-      x1="78.234"
-      y1="423.767"
-      x2="221.663"
-      y2="365.092"
-      gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#b1060f"/>
-      <stop offset="0.546072" stop-color="#7b010c"/>
-      <stop offset="1" stop-color="#e50914" stop-opacity="0"/>
-    </linearGradient>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Netflix icon" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2">
+  <path fill="#000" d="M104.997 0H407c57.927.154 104.846 47.073 105 104.995V407c-.154 57.926-47.073 104.844-104.995 104.998L105 512C47.074 511.844.156 464.926.002 407.003L0 105C.156 47.073 47.074.154 104.997 0z"/>
 
-    <linearGradient
-      id="netflix-right-gradient"
-      x1="456.365"
-      y1="521.56"
-      x2="309.676"
-      y2="583.495"
-      gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#b1060f"/>
-      <stop offset="0.625007" stop-color="#7b010c"/>
-      <stop offset="1" stop-color="#b1060f" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
+  <svg
+    x="162.311"
+    y="86"
+    width="187.378"
+    height="340"
+    viewBox="0 0 551.111 1000"
+    preserveAspectRatio="xMidYMid meet"
+    aria-hidden="true">
+    <defs>
+      <linearGradient
+        id="netflix-left-gradient"
+        x1="78.234"
+        y1="423.767"
+        x2="221.663"
+        y2="365.092"
+        gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#b1060f"/>
+        <stop offset="0.546072" stop-color="#7b010c"/>
+        <stop offset="1" stop-color="#e50914" stop-opacity="0"/>
+      </linearGradient>
 
-  <path
-    fill="url(#netflix-left-gradient)"
-    d="M0 0L2.305 1000C75.578 985.889 133.197 987.427 198.229 984.23V0H0Z"/>
+      <linearGradient
+        id="netflix-right-gradient"
+        x1="456.365"
+        y1="521.56"
+        x2="309.676"
+        y2="583.495"
+        gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#b1060f"/>
+        <stop offset="0.625007" stop-color="#7b010c"/>
+        <stop offset="1" stop-color="#b1060f" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
 
-  <path
-    fill="url(#netflix-right-gradient)"
-    d="M353.816 0H551.111L551.111 1000L352.663 966.943Z"/>
+    <path
+      fill="url(#netflix-left-gradient)"
+      d="M0 0L2.305 1000C75.578 985.889 133.197 987.427 198.229 984.23V0H0Z"/>
 
-  <path
-    fill="#e50914"
-    d="M1.152 0C5.762 11.525 346.901 981.925 346.901 981.925C402.957 981.525 478.12 990.678 551.111 999.213L197.077 0Z"/>
+    <path
+      fill="url(#netflix-right-gradient)"
+      d="M353.816 0H551.111L551.111 1000L352.663 966.943Z"/>
+
+    <path
+      fill="#e50914"
+      d="M1.152 0C5.762 11.525 346.901 981.925 346.901 981.925C402.957 981.525 478.12 990.678 551.111 999.213L197.077 0Z"/>
+  </svg>
 </svg>
