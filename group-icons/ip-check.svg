@@ -1,0 +1,39 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="36" y="36" width="184" height="184" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <!-- rounded background -->
+  <rect x="16" y="16" width="224" height="224" rx="56" fill="#37AEF4"/>
+
+  <!-- subtle highlight -->
+  <path d="M52 48C79 31 122 28 162 40C188 48 209 63 220 82V16H72C61 16 50 20 42 28L28 42C33 45 42 47 52 48Z" fill="white" fill-opacity="0.08"/>
+
+  <!-- location pin -->
+  <g filter="url(#shadow)">
+    <path
+      d="M128 54C94.86 54 68 80.86 68 114C68 154.64 107.72 190.78 122.46 202.76C125.72 205.39 130.28 205.39 133.54 202.76C148.28 190.78 188 154.64 188 114C188 80.86 161.14 54 128 54Z"
+      fill="white"
+    />
+  </g>
+
+  <!-- outer locator ring -->
+  <circle cx="128" cy="114" r="30" stroke="#37AEF4" stroke-width="10"/>
+
+  <!-- inner IP point -->
+  <circle cx="128" cy="114" r="11" fill="#37AEF4"/>
+
+  <!-- tiny signal point -->
+  <circle cx="154" cy="88" r="6" fill="#8BD1F8"/>
+
+  <!-- small detection accent -->
+  <path
+    d="M160.5 81.5C167.2 88.2 171.2 97.4 171.2 107.6"
+    stroke="white"
+    stroke-width="5"
+    stroke-linecap="round"
+    opacity="0.9"
+  />
+</svg>
